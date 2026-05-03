@@ -1,0 +1,21 @@
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000; padding: 16px;
+}
+.modal-box {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  width: 100%; max-width: 500px;
+  max-height: 90vh; overflow-y: auto;
+  animation: modal-in 0.2s ease;
+}
+@keyframes modal-in { from { opacity: 0; transform: scale(0.95) translateY(10px); } }
+.modal-header { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px 0; }
+.modal-header h3 { font-size: 18px; font-weight: 700; }
+.modal-close { background: none; color: var(--text3); font-size: 18px; padding: 0; }
+.modal-close:hover { color: var(--text); }
+.modal-body { padding: 20px 24px 24px; }
