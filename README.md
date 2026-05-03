@@ -3,7 +3,8 @@
 A full-stack task management web app with role-based access control.
 
 ## 🚀 Live Demo
-> Add your Railway URL here after deployment
+- Frontend: https://energetic-harmony-production-efcd.up.railway.app
+- Backend health: https://taskmanager-production-0b94.up.railway.app/health
 
 ## ✨ Features
 
